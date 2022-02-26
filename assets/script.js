@@ -59,10 +59,10 @@ var scoreResult;
 
 // Start the timer
 
-var totalTime = 61;
+var totalTime = 121;
 function newQuiz() {
     questionIndex = 0;
-    totalTime = 60;
+    totalTime = 120;
     timeLeft.textContent = totalTime;
     myName.textContent = "";
 
