@@ -9,8 +9,9 @@ This timed quiz satisfies the following requirements of the assignment:
 - The game is over when all the questions have been answered, or when the timer reaches 0.
 - The quiz tracks the number of correctly answered questions, which is displayed as the user's score at the end of the game.
 - The user is asked to submit their name, which is stored with their score.
-- The list of scores is accessible in a link at the top of the page.
+- The list of scores is accessible by clicking a link at the top of the page.
 - The saved scores can be cleared.
+- The application is uploaded to my GitHub repository and deployed with no errors.
 
 The deployed application can be found at the following URL:
 https://carissa-k.github.io/code-quiz
