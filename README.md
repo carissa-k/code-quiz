@@ -15,7 +15,7 @@ This timed quiz satisfies the following requirements of the assignment:
 - The application is uploaded to my GitHub repository and the page is live in GitHub.
 
 The deployed application can be found at the following URL:
-https://carissa-k.github.io/code-quiz
+https://carissa-k.github.io/code-quiz/
 
 A screenshot of the application is below:
 
