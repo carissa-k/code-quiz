@@ -11,7 +11,8 @@ This timed quiz satisfies the following requirements of the assignment:
 - The user is asked to submit their name, which is stored with their score.
 - The list of scores is accessible by clicking a link at the top of the page.
 - The saved scores can be cleared.
-- The application is uploaded to my GitHub repository and deployed with no errors.
+- The page has a clean, responsive user interface.
+- The application is uploaded to my GitHub repository and the page is live in GitHub.
 
 The deployed application can be found at the following URL:
 https://carissa-k.github.io/code-quiz
