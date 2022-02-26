@@ -155,7 +155,7 @@ function storeHighScores(event) {
     startQuiz.style.display = "none";
     timer.style.display = "none";
     timerStop.style.display = "none";
-    myScore.style.display = "none";
+    // myScore.style.display = "none";
     scoreDiv.style.display = "block";   
 
     var HighScores = localStorage.getItem("high scores");
