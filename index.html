@@ -1,3 +1,69 @@
-<html>
-  Hello!
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Javascript Coding Quiz</title>
+  </head>
+  <body>
+
+    <nav class="navbar bg-info navbar-dark navbar-custom">
+      <div class="container-fluid>
+        <div class=""><a href="#" id="viewHighScore">View Scores</a></div>
+        <div class="timer-text" id="timer">Time Remaining: <span id="timeLeft"></span>
+        </div>
+        <div class="timer-text" id="timerStop" style="display:none;">Your time is up!</div>
+      </div>
+    </nav>
+
+    <!-- Start container div here -->
+    
+    <div id="startQuiz">
+      <p class="startquiz">Take the Coding Quiz!</p>
+      <p class="directions">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+      <p class="quiz-button"><button type="button" id="startQuizBtn" class="btn btn-outline-info">Start the Quiz!</button></p>
+    </div>
+
+    <div id="quizSection" style="display: none">
+      <p class="text-title" id="displayQuestion"></p>
+      <p class="questions"><button id="choiceA" class="btn btn-outline-info"></button></p>
+      <p class="questions"><button id="choiceB" class="btn btn-outline-info"></button></p>
+      <p class="questions"><button id="choiceC" class="btn btn-outline-info"></button></p>
+      <p class="questions"><button id="choiceD" class="btn btn-outline-info"></button></p>
+      <hr id="lineBreak" style="display: none" class="line-break">
+      <p class="answer-check" id="answerCheck" style="display: none"></p>
+    </div>
+
+    <div id="quizScore" style="display:none">
+      <p class="text-title">Here is your final score: <span id="myScore"> !</span></p>
+      <form class="row g-2 justify-content-center">
+        <div class="col-auto">
+          <input type="text" class="form-control" placeholder="Your Name" id="myName" style="font-family: 'Rajdhani', sans-serif; font-size: 16px;">
+        </div>
+        <div class="col-auto">
+        <button type="submit" class="btn btn-info" id="submitName">Submit</button>
+      </div>
+      </form>
+    </div>
+
+    <div id="scoreDiv" style="display:none" class="directions">
+      <p class="text-title">Scores</p>
+      <div id="scoreList"></div>
+      <p>
+      <button type="submit" id="backBtn" class="btn btn-outline-info">Go Back</button>
+      <button type="submit" id="clearScore" class="btn btn-outline-info">Clear Scores</button>
+      </p>
+    </div>
+    
+    <!-- End container div here -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+
+  </body>
 </html>
