@@ -1,0 +1,73 @@
+.navbar-custom a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600; 
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-custom a:hover {
+    color: rgb(197, 251, 255);
+}
+
+.timer-text {
+    float: right;
+    padding-right: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.startquiz {
+    text-align: center;
+    padding: 100px 0 0 0;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.directions {
+    text-align: center;
+    padding: 0 25% 0 25%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.quiz-button {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.text-title {
+    padding-top:50px;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.questions {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.answer-check {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+}
+
+.line-break {
+    margin-top:50px;
+}
+
+.your-name {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+}
